@@ -12,23 +12,23 @@
 
 
 
-1. SAGA
+1. SAGA (X)
 
 
-2. CQRS
+2. CQRS (O)
 
 
-3. Correlation
+3. Correlation (O)
 
-4. REQ/RES
+4. REQ/RES (O)
 
-5. Gateway
+5. Gateway (O)
 앞단 spring cloud gateway 구성 
 http://aca85c435d1a94d479d2c5ce91995bea-693040336.ap-northeast-2.elb.amazonaws.com:8080/***
 
-6. Deploy 
+6. Deploy (O)
 
-7. Circuit Breaker
+7. Circuit Breaker 
 
 
 
@@ -41,7 +41,7 @@ horizontalpodautoscaler.autoscaling/order   Deployment/order   92%/5%    1      
 
 
 
-9. readiness probe(zero downtime deployment), liveness probe
+9. readiness probe(zero downtime deployment) (O)
 
 ```sh
  sktelecom  ~/Downloads/onlineShop/order  kubectl set image deployment/order order=496278789073.dkr.ecr.ap-northeast-2.amazonaws.com/user04-order:0.0.2 --record
