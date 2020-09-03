@@ -34,9 +34,9 @@
 
 9. readiness probe(zero downtime deployment) 
 ```
-HTTP/1.1 201     0.08 secs:     228 bytes ==> POST http://order:8080/orders
-HTTP/1.1 201     0.01 secs:     228 bytes ==> POST http://order:8080/orders
-HTTP/1.1 201     0.02 secs:     228 bytes ==> POST http://order:8080/orders
+HTTP/1.1 500     0.35 secs:     194 bytes ==> POST http://aca85c435d1a94d479d2c5ce91995bea-693040336.ap-northeast-2.elb.amazonaws.com:8080/orders
+HTTP/1.1 500     0.13 secs:     194 bytes ==> POST http://aca85c435d1a94d479d2c5ce91995bea-693040336.ap-northeast-2.elb.amazonaws.com:8080/orders
+HTTP/1.1 500     0.45 secs:     194 bytes ==> POST http://aca85c435d1a94d479d2c5ce91995bea-693040336.ap-northeast-2.elb.amazonaws.com:8080/orders
 ^C
 Lifting the server siege...
 Transactions:		       13398 hits
