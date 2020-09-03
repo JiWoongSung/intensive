@@ -22,8 +22,8 @@
 
 4. REQ/RES (O)
 
-5. Gateway (O)
-앞단 spring cloud gateway 구성 
+5. Gateway
+- 앞단 spring cloud gateway 구성 
 http://aca85c435d1a94d479d2c5ce91995bea-693040336.ap-northeast-2.elb.amazonaws.com:8080/***
 
 6. Deploy (O)
