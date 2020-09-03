@@ -17,19 +17,18 @@
 
 2. CQRS (O)
 
-
 3. Correlation (O)
 
 4. REQ/RES (O)
 
-5. Gateway
+5. Gateway (O)
 
 6. Deploy (O)
 
-7. Circuit Breaker 
+7. Circuit Breaker (X)
 
 
-8. Autoscale(HPA)
+8. Autoscale(HPA) (X)
 
 
 9. readiness probe(zero downtime deployment) 
@@ -80,7 +79,7 @@ Shortest transaction:	        0.00
 
 ```
 
-11. Polyglot
+11. Polyglot ()
 
 
   
