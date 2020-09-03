@@ -31,7 +31,7 @@
 8. Autoscale(HPA) (X)
 
 
-9. readiness probe(zero downtime deployment) 
+9. readiness probe(zero downtime deployment(O)
 ```
 HTTP/1.1 500     0.35 secs:     194 bytes ==> POST http://aca85c435d1a94d479d2c5ce91995bea-693040336.ap-northeast-2.elb.amazonaws.com:8080/orders
 HTTP/1.1 500     0.13 secs:     194 bytes ==> POST http://aca85c435d1a94d479d2c5ce91995bea-693040336.ap-northeast-2.elb.amazonaws.com:8080/orders
